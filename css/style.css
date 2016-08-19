@@ -42,12 +42,18 @@ body {
 
 .main-header {
   margin-bottom: 60px;
+  background-color: black;
+  min-height: 72px;
 }
 
 .main-navigation {
   float: left;
   width: 780px;
   min-height: 70px;
+}
+
+.main-navigation li {
+  display: inline-block;
 }
 
 .user-block {
@@ -101,6 +107,7 @@ body {
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
+  background-color: #212121;
 }
 
 .footer-contacts {
@@ -123,21 +130,42 @@ body {
 }
 
 .catalog-header {
+  background-color: black;
   margin-bottom: 55px;
+  min-height: 72px;
+}
+
+.logo {
+  float: left;
+  width: 111px;
+  height: 24px;
+}
+
+.catalog-navigation {
+  float: left;
+  width: 620px;
+  margin-right: 0;
+}
+
+.catalog-navigation li {
+  display: inline-block;
 }
 
 .catalog-name {
   min-height: 35px;
-  float: left;
   margin-bottom: 25px;
   margin-right: 640px;
 }
 
 .breadcrumbs {
-  float: left;
+  width: 100%;
   min-height: 20px;
   margin-bottom: 55px;
-  margin-right: 600px;
+  margin-left: -40px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
 }
 
 .selection {
@@ -157,35 +185,69 @@ body {
 .catalog-item {
   display: inline-block;
   width: 220px;
-  min-height: 290px;
+  min-height: 270px;
   margin-right: 20px;
   font-size: 12px;
+  vertical-align: top;
+  padding-bottom: 16px;
 }
 
 .catalog-item:nth-child(3n) {
   margin-right: 0px;
 }
 
+.catalog-item h3 {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+
+.item-buy {
+  width: 187px;
+  min-height: 43px;
+  margin-left: 15px;
+  margin-right: 17px;
+  font-size: 0;
+}
+
+.item-buy span {
+  font-size: 12px;
+  display: inline-block;
+  width: 109px;
+}
+
+.item-buy a {
+  font-size: 12px;
+  display: inline-block;
+  width: 78px;
+}
+
+
 .catalog-pages {
   float: left;
   width: 220px;
   min-height: 45px;
   margin-top:45px;
-  margin-left: 240px;
+  margin-left: 10px;
+}
+
+.catalog-pages a {
+  display: inline-block;
+  width: 43px;
+  min-height: 43px;
+  background-color: black;
+  margin-right: 7px;
+  color: white;
+  text-align: center;
 }
 
 .catalog-item-header {
   margin-bottom: 50px;
 }
 
-.item-main {
-  padding-bottom: 49px;
-}
-
 .item-name {
-  float: left;
   margin-bottom: 25px;
-  margin-right: 320px;
 }
 
 .item-img {
